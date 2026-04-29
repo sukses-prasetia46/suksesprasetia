@@ -1,0 +1,991 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sukses Prasetia</title>
+
+    <!-- link Start -->
+    <link rel="shortcut icon" href="/suksesprasetia/assets/logo-BcwnmHGm.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <!-- link End -->
+
+    <link rel="stylesheet" crossorigin href="/suksesprasetia/assets/style-C_20xrY3.css">
+  </head>
+  <body class="bg-slate-50 text-slate-800">
+
+    <!-- Bagian Navbar -->
+   <nav class="fixed w-full z-50 glass py-4 px-6 md:px-12 flex justify-between items-center shadow-sm">
+        <div class="flex items-center gap-2">
+            <img src="/suksesprasetia/assets/logo-DKrcCrm8.png" alt="logo sukses prasetia" class="w-10 h-10">
+            <span class="font-bold text-xl tracking-tighter uppercase">
+            Sukses<span class="text-teal-500">Prasetia</span>
+            </span>
+        </div>
+
+        <div class="hidden lg:flex gap-6 xl:gap-8 font-medium text-[13px] text-slate-600">
+            <a href="#home" class="hover:text-teal-500 transition"><i class="fa-solid fa-house mr-1"></i>HOME</a>
+            <a href="#about" class="hover:text-teal-500 transition"><i class="fa-solid fa-user mr-1"></i>ABOUT</a>
+            <a href="#portfolio" class="hover:text-teal-500 transition"><i class="fa-solid fa-briefcase mr-1"></i>PORTFOLIO</a>
+            <a href="#skills" class="hover:text-teal-500 transition"><i class="fa-solid fa-code mr-1"></i>SKILLS</a>
+            <a href="#partners" class="hover:text-teal-500 transition"><i class="fa-solid fa-handshake mr-1"></i>PARTNERS</a>
+            <a href="#testimonials" class="hover:text-teal-500 transition"><i class="fa-solid fa-comments mr-1"></i>TESTIMONIALS</a>
+            <a href="#contact" class="hover:text-teal-500 transition"><i class="fa-solid fa-envelope mr-1"></i>CONTACT</a>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <button class="hidden sm:block bg-teal-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-teal-600 transition shadow-md text-sm">
+            LET'S CONNECT
+            </button>
+            
+            <button id="menu-btn" class="lg:hidden text-slate-600 focus:outline-none">
+            <i class="fa-solid fa-bars-staggered text-2xl"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-white/95 backdrop-blur-md border-b border-slate-100 flex flex-col p-6 gap-4 shadow-xl lg:hidden">
+            <a href="#home" class="mobile-link"><i class="fa-solid fa-house w-6 text-teal-500"></i>HOME</a>
+            <a href="#about" class="mobile-link"><i class="fa-solid fa-user w-6 text-teal-500"></i>ABOUT</a>
+            <a href="#portfolio" class="mobile-link"><i class="fa-solid fa-briefcase w-6 text-teal-500"></i>PORTFOLIO</a>
+            <a href="#skills" class="mobile-link"><i class="fa-solid fa-code w-6 text-teal-500"></i>SKILLS</a>
+            <a href="#partners" class="mobile-link"><i class="fa-solid fa-handshake w-6 text-teal-500"></i>PARTNERS</a>
+            <a href="#testimonials" class="mobile-link"><i class="fa-solid fa-comments w-6 text-teal-500"></i>TESTIMONIALS</a>
+            <a href="#contact" class="mobile-link"><i class="fa-solid fa-envelope w-6 text-teal-500"></i>CONTACT</a>
+            <button class="sm:hidden bg-teal-500 text-white py-3 rounded-xl font-bold">LET'S CONNECT</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center pt-20 overflow-hidden bg-pattern">
+      <div class="absolute -top-20 -right-20 w-96 h-96 bg-teal-100 rounded-full blur-3xl opacity-50 animate__animated animate__fadeIn">
+      </div>
+      <div class="absolute -bottom-20 -left-20 w-80 h-80 bg-blue-100 rounded-full blur-3xl opacity-50 animate__animated animate__fadeIn">
+      </div>
+
+      <div class="container mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12 items-center relative z-10">
+        <div class="animate__animated animate__fadeInLeft">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="w-10 h-[2px] bg-teal-500"></span>
+            <p class="text-teal-600 font-semibold tracking-widest uppercase text-sm">
+              Hello Semua 👋 👋, Saya
+            </p>
+          </div>
+            <h1 class="text-5xl md:text-7xl font-bold text-slate-900 leading-tight mb-6">
+              SUKSES <br/>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-600"
+                >PRASETIA
+              </span>
+            </h1>
+          <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
+            <span
+              class="font-semibold text-slate-800 border-b-2 border-teal-200">Teacher | Content Creator | Web Developer</span>. 
+              Belajar web development dan desain UI/UX itu mudah, interaktif, dan tentunya sangat menyenangkan. Mari ciptakan karya luar biasa bersama!
+          </p>
+
+          <div class="flex flex-wrap gap-4">
+            <button onclick="location.href='#contact'" class="group flex items-center gap-3 bg-teal-500 text-white px-8 py-4 rounded-xl font-bold shadow-xl shadow-teal-200 hover:bg-teal-600 transition-all transform hover:-translate-y-1">
+              <i class="fas fa-paper-plane group-hover:animate-bounce"></i>
+              Hubungi Saya
+            </button>
+            <div class="flex gap-4 items-center ml-4 text-2xl text-slate-400">
+              <a href="https://www.linkedin.com/in/sukses-prasetia-hulu-b711b4332/" class="hover:text-teal-500 transition-colors"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://www.youtube.com/@SuksesprasetiaWPS" class="hover:text-teal-500 transition-colors"><i class="fab fa-youtube"></i></a>
+              <a href="https://github.com/sukses-prasetia46" class="hover:text-teal-500 transition-colors"><i class="fab fa-github"></i></a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="relative animate__animated animate__fadeInRight">
+          <div class="relative z-10 w-full max-w-md mx-auto">
+            <div
+              class="absolute inset-0 bg-teal-500 rounded-full scale-105 blur-sm opacity-10 animate-pulse"
+            ></div>
+            <img
+              src="/suksesprasetia/assets/sukses-DajFFM4s.png"
+              alt="Sukses Prasetia"
+              class="relative z-20 drop-shadow-2xl filter contrast-110"
+            />
+          </div>
+          <div
+            class="absolute top-1/4 right-0 glass p-4 rounded-2xl shadow-xl animate__animated animate__bounceInDelay animate__delay-1s"
+          >
+            <div class="flex items-center gap-3">
+              <i class="fas fa-award text-yellow-500 text-2xl"></i>
+              <div>
+                <p class="text-xs text-slate-500">Professional</p>
+                <p class="font-bold text-sm text-slate-800">Web Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="https://wa.me/628137531651" target="_blank" class="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center gap-2 px-6">
+      <i class="fab fa-whatsapp text-2xl"></i>
+      <span class="font-semibold">Kontak Kami</span>
+    </a>
+
+    <!-- Bagian Navbar END -->
+
+    <!-- Bagian About Start -->
+    <section id="about" class="py-24 relative bg-slate-50 overflow-hidden">
+    
+    <div class="absolute -top-10 -left-10 w-96 h-96 bg-teal-100 rounded-full blur-3xl opacity-60"></div>
+    <div class="absolute bottom-20 right-1/4 w-80 h-80 bg-blue-100 rounded-full blur-3xl opacity-40"></div>
+
+    <div class="container mx-auto px-6 md:px-12 relative z-10">
+        
+        <div class="text-center max-w-2xl mx-auto mb-20" data-aos="fade-up">
+            <span class="inline-block bg-teal-100 text-teal-700 px-5 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest shadow-inner">
+                ABOUT ME
+            </span>
+            <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mt-6 leading-snug">
+                Mari Belajar <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-600">Web Development</span> <br/>
+                & Desain UI/UX
+            </h2>
+            <div class="w-24 h-1.5 bg-teal-500 mx-auto mt-6 rounded-full shadow-lg shadow-teal-200"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            
+            <div class="relative group animate__animated animate__fadeInLeft">
+                <div class="absolute -inset-4 border-2 border-dashed border-teal-200 rounded-3xl group-hover:rotate-3 transition-transform duration-500"></div>
+                
+                <div class="relative overflow-hidden rounded-2xl shadow-2xl">
+                    <img src="/suksesprasetia/assets/1%20(1)-Biwu3inZ.png" 
+                         alt="Sukses Prasetia Working" 
+                         class="w-full h-auto transform group-hover:scale-105 transition-transform duration-700">
+                    
+                    <div class="absolute bottom-6 left-6 right-6 glass p-5 rounded-2xl shadow-xl flex justify-between items-center border border-white/30">
+                        <div>
+                            <p class="text-xs text-teal-600 font-bold uppercase tracking-wider">Expertise</p>
+                            <p class="text-slate-800 font-extrabold">Web Development</p>
+                        </div>
+                        <div class="bg-teal-500 text-white p-3 rounded-xl shadow-lg shadow-teal-200">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="animate__animated animate__fadeInRight space-y-10">
+                
+                <div class="glass-light p-8 md:p-10 rounded-3xl shadow-xl shadow-slate-100 border border-white/60 relative">
+                    <div class="absolute left-0 top-10 bottom-10 w-1.5 bg-teal-500 rounded-r-full"></div>
+                    
+                    <p class="text-lg text-slate-700 leading-relaxed mb-6 pl-4">
+                        Halo! Saya adalah seorang <span class="font-semibold text-slate-900 border-b-2 border-teal-200">Web Developer</span> dan <span class="font-semibold text-slate-900">Content Creator</span> dengan gelar <span class="text-teal-600 font-bold tracking-tight">S.Kom</span>. Saya menggabungkan logika pemrograman dengan estetika desain UI/UX.
+                    </p>
+                    <p class="text-lg text-slate-700 leading-relaxed mb-8 pl-4">
+                        Sebagai guru berdedikasi, saya membantu siswa memahami konsep kompleks dengan pendekatan yang <span class="text-teal-600 font-medium italic">mudah, interaktif, dan menyenangkan.</span>
+                    </p>
+
+                    <div class="grid grid-cols-3 gap-4 bg-slate-100/50 p-6 rounded-2xl shadow-inner border border-slate-200">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-slate-900">300+</div>
+                            <div class="text-[10px] text-slate-500 uppercase font-bold tracking-widest">Siswa</div>
+                        </div>
+                        <div class="text-center border-x border-slate-300">
+                            <div class="text-3xl font-bold text-slate-900">10+</div>
+                            <div class="text-[10px] text-slate-500 uppercase font-bold tracking-widest">Proyek</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-slate-900">4.9</div>
+                            <div class="text-[10px] text-slate-500 uppercase font-bold tracking-widest">Rating</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-4">
+                    <div class="flex items-center gap-4 p-4 bg-white rounded-xl shadow-md border border-slate-100 hover:shadow-lg transition-all">
+                        <div class="bg-teal-50 text-teal-600 p-3 rounded-lg"><i class="fas fa-code text-xl"></i></div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-sm">Clean Code</h4>
+                            <p class="text-xs text-slate-500">Maintainable & Scalable</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 p-4 bg-white rounded-xl shadow-md border border-slate-100 hover:shadow-lg transition-all">
+                        <div class="bg-blue-50 text-blue-600 p-3 rounded-lg"><i class="fas fa-paint-brush text-xl"></i></div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-sm">Modern UI</h4>
+                            <p class="text-xs text-slate-500">User-Centered Design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row items-center gap-8 pt-4">
+                    <a href="./public/MyDocuments/SUKSES PRASETIA.pdf" 
+                    download="CV_Sukses_Prasetia_S.Kom.pdf" 
+                    class="w-full sm:w-auto bg-teal-500 text-white px-10 py-4 rounded-xl font-bold text-lg shadow-xl shadow-teal-200 hover:bg-teal-600 transition-all transform hover:scale-105 flex items-center justify-center gap-3">
+                        <i class="fas fa-download"></i> Unduh CV
+                    </a>
+                    
+                    <div class="flex items-center gap-5 text-2xl text-slate-400">
+                        <a href="https://www.facebook.com/prasetia.hulu.2025" class="hover:text-teal-500 transition-colors"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/sukses_prasetia02/" class="hover:text-teal-500 transition-colors"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@prasetia_19?_r=1&_t=ZS-95trsZCLoRB" class="hover:text-teal-500 transition-colors"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.youtube.com/@SuksesprasetiaWPS" class="hover:text-teal-500 transition-colors"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+     <!-- Bagian About END -->
+
+     <!-- Bagian Services -->
+      <section id="services" class="py-24 bg-white relative overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-20" data-aos="fade-up">
+            <span class="inline-block bg-teal-100 text-teal-700 px-5 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest shadow-inner">
+                APA YANG SAYA TAWARKAN
+            </span>
+            <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mt-6 leading-snug">
+                Layanan <span class="text-teal-500">Profesional</span>
+            </h2>
+            <p class="text-slate-600 mt-5 text-lg">
+                Menyediakan solusi digital komprehensif mulai dari pengembangan sistem hingga edukasi teknologi informasi.
+            </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="p-10 bg-slate-50 rounded-3xl border border-slate-100 hover:bg-white hover:shadow-2xl hover:-translate-y-3 transition-all duration-500 group" data-aos="fade-up">
+                <div class="w-16 h-16 bg-teal-500 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-teal-500/20 group-hover:scale-110 transition-transform duration-500">
+                <i class="fas fa-code text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Web Development</h3>
+                <p class="text-slate-600 leading-relaxed">
+                Membangun aplikasi web yang responsif dan berperforma tinggi menggunakan framework modern seperti Laravel dan Tailwind CSS.
+                </p>
+            </div>
+
+            <div class="p-10 bg-slate-50 rounded-3xl border border-slate-100 hover:bg-white hover:shadow-2xl hover:-translate-y-3 transition-all duration-500 group" data-aos="fade-up" data-aos-delay="100">
+                <div class="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-500">
+                <i class="fas fa-swatchbook text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">UI/UX Design</h3>
+                <p class="text-slate-600 leading-relaxed">
+                Menciptakan desain antarmuka yang intuitif dan menarik untuk meningkatkan pengalaman pengguna di berbagai platform digital.
+                </p>
+            </div>
+
+            <div class="p-10 bg-slate-50 rounded-3xl border border-slate-100 hover:bg-white hover:shadow-2xl hover:-translate-y-3 transition-all duration-500 group" data-aos="fade-up" data-aos-delay="200">
+                <div class="w-16 h-16 bg-orange-500 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-orange-500/20 group-hover:scale-110 transition-transform duration-500">
+                <i class="fas fa-chalkboard-teacher text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">IT Education</h3>
+                <p class="text-slate-600 leading-relaxed">
+                Memberikan bimbingan dan materi informatika yang terstruktur untuk siswa tingkat sekolah menengah.
+                </p>
+            </div>
+
+            <div class="p-10 bg-slate-50 rounded-3xl border border-slate-100 hover:bg-white hover:shadow-2xl hover:-translate-y-3 transition-all duration-500 group" data-aos="fade-up">
+                <div class="w-16 h-16 bg-red-500 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-red-500/20 group-hover:scale-110 transition-transform duration-500">
+                <i class="fab fa-youtube text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Content Creation</h3>
+                <p class="text-slate-600 leading-relaxed">
+                Memproduksi konten edukatif seputar tutorial pemrograman web melalui kanal YouTube "Sukses Web Programming".
+                </p>
+            </div>
+
+            <div class="p-10 bg-slate-50 rounded-3xl border border-slate-100 hover:bg-white hover:shadow-2xl hover:-translate-y-3 transition-all duration-500 group" data-aos="fade-up" data-aos-delay="100">
+                <div class="w-16 h-16 bg-indigo-500 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-indigo-500/20 group-hover:scale-110 transition-transform duration-500">
+                <i class="fas fa-network-wired text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Network Services</h3>
+                <p class="text-slate-600 leading-relaxed">
+                Layanan konfigurasi jaringan dan administrasi server menggunakan teknologi Cisco dan sistem operasi Linux.
+                </p>
+            </div>
+
+            <div class="p-10 bg-slate-50 rounded-3xl border border-slate-100 hover:bg-white hover:shadow-2xl hover:-translate-y-3 transition-all duration-500 group" data-aos="fade-up" data-aos-delay="200">
+                <div class="w-16 h-16 bg-pink-500 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-pink-500/20 group-hover:scale-110 transition-transform duration-500">
+                <i class="fas fa-pen-nib text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Branding & Logo</h3>
+                <p class="text-slate-600 leading-relaxed">
+                Mendesain identitas visual yang kuat melalui pembuatan logo dan aset grafis profesional menggunakan Figma.
+                </p>
+            </div>
+
+            </div>
+        </div>
+      </section>
+      <!-- Bagian Services END -->
+
+     <!-- Bagian Portfolio Start -->
+    <section id="portfolio" class="py-24 relative bg-white overflow-hidden">
+        <div class="absolute top-1/4 right-0 w-80 h-80 bg-teal-50 rounded-full blur-3xl opacity-50"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-blue-50 rounded-full blur-3xl opacity-40"></div>
+
+        <div class="container mx-auto px-6 md:px-12 relative z-10">
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div class="max-w-2xl" data-aos="fade-right">
+                    <span class="inline-block bg-teal-100 text-teal-700 px-5 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest shadow-inner">
+                        MY WORK
+                    </span>
+                    <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mt-6">
+                        Karya Pilihan & <span class="text-teal-500">Proyek Terbaru</span>
+                    </h2>
+                    <p class="text-slate-600 mt-4 text-lg">
+                        Eksplorasi solusi digital mulai dari platform edukasi hingga sistem manajemen backend yang kompleks.
+                    </p>
+                </div>
+                <div class="flex gap-3 h-fit">
+                    <button class="px-6 py-2 rounded-full bg-teal-500 text-white font-semibold shadow-lg shadow-teal-200">Semua</button>
+                    <button class="px-6 py-2 rounded-full bg-slate-100 text-slate-600 font-semibold hover:bg-teal-50 transition">Web</button>
+                    <button class="px-6 py-2 rounded-full bg-slate-100 text-slate-600 font-semibold hover:bg-teal-50 transition">Design</button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                
+                <div class="group relative bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-100 border border-slate-100 animate__animated animate__fadeInUp">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="Prasetia Teknik" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
+                            <div class="flex gap-4">
+                                <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-slate-900 hover:bg-teal-500 hover:text-white transition shadow-lg"><i class="fas fa-link"></i></a>
+                                <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-slate-900 hover:bg-teal-500 hover:text-white transition shadow-lg"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-slate-900 group-hover:text-teal-600 transition">Prasetia Teknik</h3>
+                            <span class="text-xs font-bold text-teal-500 bg-teal-50 px-3 py-1 rounded-lg">Laravel</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">Website portofolio dengan integrasi AI greeting untuk interaksi pengunjung yang personal.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-[10px] uppercase font-bold tracking-wider text-slate-400">PHP</span>
+                            <span class="text-[10px] uppercase font-bold tracking-wider text-slate-400">Tailwind</span>
+                            <span class="text-[10px] uppercase font-bold tracking-wider text-slate-400">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-100 border border-slate-100 animate__animated animate__fadeInUp" style="animation-delay: 0.1s">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="/suksesprasetia/assets/2-Cn0ER73w.png" alt="Sistem Informasi Sekolah" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
+                            <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-slate-900 hover:bg-teal-500 hover:text-white transition shadow-lg"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-slate-900 group-hover:text-teal-600 transition">Sistem Informasi</h3>
+                            <span class="text-xs font-bold text-teal-500 bg-teal-50 px-3 py-1 rounded-lg">Web Dev</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">Manajemen sekolah berbasis web yang efisien menggunakan Laravel dan Tailwind CSS.</p>
+                        <div class="flex gap-4">
+                            <a href="#" class="text-teal-600 font-semibold text-sm hover:underline">Lihat Detail →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-100 border border-slate-100 animate__animated animate__fadeInUp" style="animation-delay: 0.2s">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="/suksesprasetia/assets/mobile-ChJC22gz.png" alt="Education Project" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
+                            <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-slate-900 hover:bg-teal-500 hover:text-white transition shadow-lg"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-slate-900 group-hover:text-teal-600 transition">Edu Figma-Desain UI/UX</h3>
+                            <span class="text-xs font-bold text-blue-500 bg-blue-50 px-3 py-1 rounded-lg">Education</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">Perancangan UI/UX 'EduGate', aplikasi super manajemen sekolah berbasis mobile yang mengintegrasikan absensi QR, profil digital siswa, manajemen akademik, dan fitur chat real-time untuk kurikulum modern.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-[10px] uppercase font-bold tracking-wider text-slate-400">Desain Grafis</span>
+                            <span class="text-[10px] uppercase font-bold tracking-wider text-slate-400">HTML/CSS & JS</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="https://www.figma.com/design/OUc7NtGVhbkXNawtwoAxrl/Project-School?node-id=0-1&m=dev&t=6rS870j332bXX2ch-1" class="text-teal-600 font-semibold text-sm hover:underline">Lihat Detail Desain UI/UX →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-100 border border-slate-100 animate__animated animate__fadeInUp" style="animation-delay: 0.3s">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Informatika Kelas 7" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-slate-900 group-hover:text-teal-600 transition">Informatika Kelas 7</h3>
+                            <span class="text-xs font-bold text-purple-500 bg-purple-50 px-3 py-1 rounded-lg">Materi</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">Materi dasar pengenalan perangkat keras, sistem operasi, dan etika berinternet.</p>
+                        <a href="./public/view/informatika_VII.html" class="text-teal-600 font-bold text-sm group">Lihat Detail <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition"></i></a>
+                    </div>
+                </div>
+
+                <div class="group relative bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-100 border border-slate-100 animate__animated animate__fadeInUp" style="animation-delay: 0.4s">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Informatika Kelas 8" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-slate-900 group-hover:text-teal-600 transition">Informatika Kelas 8</h3>
+                            <span class="text-xs font-bold text-purple-500 bg-purple-50 px-3 py-1 rounded-lg">Materi</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">Fokus pada algoritma dasar, pemrograman visual (Scratch), dan pengolahan data.</p>
+                        <a href="./public/view/informatika_VIII.html" class="text-teal-600 font-bold text-sm group">Lihat Detail <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition"></i></a>
+                    </div>
+                </div>
+
+                <div class="group relative bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-100 border border-slate-100 animate__animated animate__fadeInUp" style="animation-delay: 0.5s">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Informatika Kelas 9" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-slate-900 group-hover:text-teal-600 transition">Informatika Kelas 9</h3>
+                            <span class="text-xs font-bold text-purple-500 bg-purple-50 px-3 py-1 rounded-lg">Materi</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">Materi lanjutan mengenai jaringan komputer dan dasar pengembangan web.</p>
+                        <a href="./public/view/informatika_IX.html" class="text-teal-600 font-bold text-sm group">Lihat Detail <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-20">
+                <a href="#" class="inline-flex items-center gap-3 text-slate-900 font-bold border-b-2 border-teal-500 pb-2 hover:text-teal-500 transition-all group">
+                    Lihat Selengkapnya di GitHub 
+                    <i class="fas fa-arrow-right group-hover:translate-x-2 transition-transform"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+     <!-- Bagian Portfolio END -->
+
+     <!-- Bagian Skills Start -->
+        <div id="skills-container">
+
+            <section id="skills" class="py-24 relative bg-slate-900 text-white overflow-hidden">
+                <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+                    <div class="absolute -top-24 -left-24 w-96 h-96 bg-teal-500/10 rounded-full blur-3xl"></div>
+                    <div class="absolute bottom-0 right-0 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl"></div>
+                </div>
+
+                <div class="container mx-auto px-6 md:px-12 relative z-10">
+                    <div class="text-center max-w-3xl mx-auto mb-20" data-aos="fade-up">
+                        <h2 class="text-4xl md:text-5xl font-bold mb-6">Keahlian & <span class="text-teal-400">Teknologi</span></h2>
+                        <p class="text-slate-400 text-lg">Kombinasi kemampuan teknis dalam pengembangan web, desain instruksional, dan manajemen multimedia.</p>
+                    </div>
+
+                    <div class="grid lg:grid-cols-3 gap-12">
+                        
+                        <div class="space-y-8" data-aos="fade-right">
+                            <div class="flex items-center gap-4 mb-2">
+                                <div class="w-12 h-12 bg-teal-500/20 rounded-2xl flex items-center justify-center text-teal-400">
+                                    <i class="fas fa-code text-2xl"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold">Web Development</h3>
+                            </div>
+                            
+                            <div class="space-y-2">
+                                <div class="flex justify-between text-sm font-semibold">
+                                    <span>PHP / Laravel</span>
+                                    <span class="text-teal-400">90%</span>
+                                </div>
+                                <div class="h-2 bg-slate-800 rounded-full overflow-hidden">
+                                    <div class="h-full bg-teal-500 rounded-full" style="width: 90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="space-y-2">
+                                <div class="flex justify-between text-sm font-semibold">
+                                    <span>Tailwind CSS</span>
+                                    <span class="text-teal-400">85%</span>
+                                </div>
+                                <div class="h-2 bg-slate-800 rounded-full overflow-hidden">
+                                    <div class="h-full bg-teal-500 rounded-full" style="width: 85%"></div>
+                                </div>
+                            </div>
+
+                            <div class="space-y-2">
+                                <div class="flex justify-between text-sm font-semibold">
+                                    <span>Python (AI Integration)</span>
+                                    <span class="text-teal-400">75%</span>
+                                </div>
+                                <div class="h-2 bg-slate-800 rounded-full overflow-hidden">
+                                    <div class="h-full bg-teal-500 rounded-full" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-8" data-aos="fade-up" data-aos-delay="100">
+                            <div class="flex items-center gap-4 mb-2">
+                                <div class="w-12 h-12 bg-blue-500/20 rounded-2xl flex items-center justify-center text-blue-400">
+                                    <i class="fas fa-layer-group text-2xl"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold">Multimedia & Design</h3>
+                            </div>
+
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="p-4 bg-slate-800/50 rounded-2xl border border-slate-700 hover:border-blue-500 transition group text-center">
+                                    <i class="fab fa-adobe text-3xl mb-3 text-slate-500 group-hover:text-blue-400 transition"></i>
+                                    <p class="text-sm font-bold">After Effects</p>
+                                </div>
+                                <div class="p-4 bg-slate-800/50 rounded-2xl border border-slate-700 hover:border-blue-500 transition group text-center">
+                                    <i class="fas fa-video text-3xl mb-3 text-slate-500 group-hover:text-blue-400 transition"></i>
+                                    <p class="text-sm font-bold">OBS Studio</p>
+                                </div>
+                                <div class="p-4 bg-slate-800/50 rounded-2xl border border-slate-700 hover:border-blue-500 transition group text-center">
+                                    <i class="fas fa-pen-nib text-3xl mb-3 text-slate-500 group-hover:text-blue-400 transition"></i>
+                                    <p class="text-sm font-bold">Logo Design</p>
+                                </div>
+                                <div class="p-4 bg-slate-800/50 rounded-2xl border border-slate-700 hover:border-blue-500 transition group text-center">
+                                    <i class="fas fa-broadcast-tower text-3xl mb-3 text-slate-500 group-hover:text-blue-400 transition"></i>
+                                    <p class="text-sm font-bold">Streaming</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-8" data-aos="fade-left" data-aos-delay="200">
+                            <div class="flex items-center gap-4 mb-2">
+                                <div class="w-12 h-12 bg-purple-500/20 rounded-2xl flex items-center justify-center text-purple-400">
+                                    <i class="fas fa-graduation-cap text-2xl"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold">EdTech Skills</h3>
+                            </div>
+
+                            <ul class="space-y-4">
+                                <li class="flex items-start gap-4">
+                                    <div class="w-6 h-6 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 mt-1 shrink-0">
+                                        <i class="fas fa-check text-[10px]"></i>
+                                    </div>
+                                    <p class="text-slate-300">Penyusunan Instrumen Asesmen (C5 Level)</p>
+                                </li>
+                                <li class="flex items-start gap-4">
+                                    <div class="w-6 h-6 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 mt-1 shrink-0">
+                                        <i class="fas fa-check text-[10px]"></i>
+                                    </div>
+                                    <p class="text-slate-300">Pengembangan Kurikulum Informatika SMP</p>
+                                </li>
+                                <li class="flex items-start gap-4">
+                                    <div class="w-6 h-6 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 mt-1 shrink-0">
+                                        <i class="fas fa-check text-[10px]"></i>
+                                    </div>
+                                    <p class="text-slate-300">Pembuatan Konten Edukasi YouTube</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="expertise" class="py-24 bg-slate-50 relative overflow-hidden">
+                <div class="absolute -top-24 -right-24 w-96 h-96 bg-teal-100/50 rounded-full blur-3xl"></div>
+                
+                <div class="container mx-auto px-6 md:px-12 relative z-10">
+                    <div class="text-center mb-16" data-aos="fade-up">
+                        <span class="text-teal-600 font-bold uppercase tracking-widest text-sm text-center block">EXPERTISE & STACK</span>
+                        <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mt-4">Teknologi yang Saya Kuasai</h2>
+                        <div class="w-20 h-1.5 bg-teal-500 mx-auto mt-6 rounded-full"></div>
+                    </div>
+
+                    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                        <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center group">
+                            <div class="w-16 h-16 flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+                                <img src="/suksesprasetia/assets/Laravel.svg-B8aZYTi-.png" class="w-12 h-12" alt="Laravel">
+                            </div>
+                            <span class="font-bold text-slate-700 group-hover:text-teal-600">Laravel</span>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center group">
+                            <div class="w-16 h-16 flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" class="w-12 h-12" alt="Tailwind">
+                            </div>
+                            <span class="font-bold text-slate-700 group-hover:text-teal-600">Tailwind</span>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center group">
+                            <div class="w-16 h-16 flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" class="w-12 h-12" alt="JavaScript">
+                            </div>
+                            <span class="font-bold text-slate-700 group-hover:text-teal-600">JavaScript</span>
+                        </div>
+
+                        <div class="bg-teal-50/50 p-8 rounded-3xl border border-teal-200 shadow-md shadow-teal-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center group">
+                            <div class="w-16 h-16 flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" class="w-12 h-12" alt="Python">
+                            </div>
+                            <span class="font-bold text-teal-700">Python</span>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center group">
+                            <div class="w-16 h-16 flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+                                <i class="fab fa-linux text-4xl text-slate-600 group-hover:text-black"></i>
+                            </div>
+                            <span class="font-bold text-slate-700 group-hover:text-teal-600">Kali Linux</span>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center group">
+                            <div class="w-16 h-16 flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" class="w-10 h-10" alt="Figma">
+                            </div>
+                            <span class="font-bold text-slate-700 group-hover:text-teal-600">Figma</span>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center group">
+                            <div class="w-16 h-16 flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" class="w-12 h-12" alt="Git">
+                            </div>
+                            <span class="font-bold text-slate-700 group-hover:text-teal-600">Git</span>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center group">
+                            <div class="w-16 h-16 flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" class="w-12 h-12" alt="VS Code">
+                            </div>
+                            <span class="font-bold text-slate-700 group-hover:text-teal-600">VS Code</span>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center group">
+                            <div class="w-16 h-16 flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" class="w-12 h-12" alt="Docker">
+                            </div>
+                            <span class="font-bold text-slate-700 group-hover:text-teal-600">Docker</span>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center group">
+                            <div class="w-16 h-16 flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" class="w-12 h-12" alt="MySQL">
+                            </div>
+                            <span class="font-bold text-slate-700 group-hover:text-teal-600">MySQL</span>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center group">
+                            <div class="w-16 h-16 flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+                                <i class="fab fa-youtube text-4xl text-red-600"></i>
+                            </div>
+                            <span class="font-bold text-slate-700 group-hover:text-teal-600">YouTube</span>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center group">
+                            <div class="w-16 h-16 flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+                                <i class="fas fa-network-wired text-4xl text-slate-600 group-hover:text-blue-500"></i>
+                            </div>
+                            <span class="font-bold text-slate-700 group-hover:text-teal-600">Cisco</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+     <!-- Bagian Skills END -->
+
+     <!-- Bagaian Partners Start -->
+    <section id="partners" class="py-24 bg-white border-t border-slate-100 overflow-hidden relative">
+    <div class="absolute inset-0 z-0 opacity-40">
+        <div class="absolute top-0 left-1/4 w-72 h-72 bg-teal-50 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 right-1/4 w-64 h-64 bg-blue-50 rounded-full blur-3xl"></div>
+    </div>
+
+    <div class="relative z-10">
+        <div class="container mx-auto px-6 text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+        <span class="inline-block bg-teal-100 text-teal-700 px-5 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest shadow-inner">
+            PARTNERSHIP
+        </span>
+        <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mt-6 leading-snug">
+            Bekerja Sama dengan Institusi <span class="text-teal-500">Terpercaya</span>
+        </h2>
+        </div>
+
+        <div class="relative flex overflow-x-hidden group">
+        <div class="flex items-center gap-12 py-10 animate-marquee whitespace-nowrap">
+            <div class="partner-item"><img src="/suksesprasetia/assets/yayasan-DrFfYcxZ.png" alt="Yayasan Prayoga Riau"></div>
+            <div class="partner-item"><img src="/suksesprasetia/assets/gbi-C8e0y_nZ.png" alt="GBI Universitas Dumai"></div>
+            <div class="partner-item"><img src="/suksesprasetia/assets/smp%20(1)-BHSbMqQC.png" alt="SMP Swasta Santo Tarcisius"></div>
+            <div class="partner-item"><img src="/suksesprasetia/assets/smk-Bre5Bdek.png" alt="SMK Budi Dharma Dumai"></div>
+            <div class="partner-item"><img src="/suksesprasetia/assets/swimming-BkMmzWPC.png" alt="Swimming Sport Club Dumai"></div>
+            <div class="partner-item"><img src="/suksesprasetia/assets/universitasdumai-CRPQwDyV.png" alt="Universitas Dumai"></div>
+            <div class="partner-item"><img src="/suksesprasetia/assets/footsal-Dsey1pLo.jpeg" alt="Footsal Club"></div>
+        </div>
+
+        <div class="absolute top-0 flex items-center gap-12 py-10 animate-marquee2 whitespace-nowrap">
+            <div class="partner-item"><img src="/suksesprasetia/assets/yayasan-DrFfYcxZ.png" alt="Yayasan Prayoga Riau"></div>
+            <div class="partner-item"><img src="/suksesprasetia/assets/gbi-C8e0y_nZ.png" alt="GBI Universitas Dumai"></div>
+            <div class="partner-item"><img src="/suksesprasetia/assets/smp%20(1)-BHSbMqQC.png" alt="SMP Swasta Santo Tarcisius"></div>
+            <div class="partner-item"><img src="/suksesprasetia/assets/smk-Bre5Bdek.png" alt="SMK Budi Dharma Dumai"></div>
+            <div class="partner-item"><img src="/suksesprasetia/assets/swimming-BkMmzWPC.png" alt="Swimming Sport Club Dumai"></div>
+            <div class="partner-item"><img src="/suksesprasetia/assets/universitasdumai-CRPQwDyV.png" alt="Universitas Dumai"></div>
+            <div class="partner-item"><img src="/suksesprasetia/assets/footsal-Dsey1pLo.jpeg" alt="Footsal Club"></div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+      <!-- Bagian Partners END -->
+
+      <!-- Bagian Testimonials Start -->
+    <section id="testimonials" class="py-24 bg-slate-50 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-teal-100/50 rounded-full blur-3xl -mr-48"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-100/50 rounded-full blur-3xl -ml-48"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-teal-600 font-bold tracking-widest text-xs uppercase">Apa Kata Mereka</span>
+                <h2 class="text-4xl font-bold text-slate-900 mt-4">Testimoni & <span class="text-teal-500">Apresiasi</span></h2>
+                <div class="w-20 h-1 bg-teal-500 mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <div class="glass p-8 rounded-3xl border border-white/50 shadow-xl hover:-translate-y-2 transition-all duration-300" data-aos="fade-up">
+                    <div class="flex gap-1 text-orange-400 mb-6">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 italic leading-relaxed mb-8">
+                        "Kemampuan teknis Sukses dalam mengelola sistem informasi sekolah sangat membantu operasional kami menjadi lebih efisien dan modern."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <img src="/suksesprasetia/assets/rolando-C-_U-1P3.jpeg" alt="Partner" class="w-14 h-14 rounded-full object-cover border-2 border-teal-500 p-0.5">
+                        <div>
+                            <h4 class="font-bold text-slate-900">Rolando</h4>
+                            <p class="text-sm text-slate-500">Multimedia Team Partner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass p-8 rounded-3xl border border-white/50 shadow-xl hover:-translate-y-2 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex gap-1 text-orange-400 mb-6">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 italic leading-relaxed mb-8">
+                        "Seorang pengajar yang inspiratif. Materi pemrograman yang dibawakan sangat mudah dipahami oleh siswa-siswi kami."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 rounded-full bg-teal-500 flex items-center justify-center text-white font-bold text-xl">
+                            S
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Staff Akademik</h4>
+                            <p class="text-sm text-slate-500">SMP Santo Tarcisius</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass p-8 rounded-3xl border border-white/50 shadow-xl hover:-translate-y-2 transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex gap-1 text-orange-400 mb-6">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 italic leading-relaxed mb-8">
+                        "Website portfolio dan branding yang dikerjakan sangat profesional. Detail desainnya benar-benar mencerminkan identitas yang kami inginkan."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 rounded-full bg-slate-200 flex items-center justify-center text-slate-500">
+                            <i class="fas fa-user-tie text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Partner Bisnis</h4>
+                            <p class="text-sm text-slate-500">Professional Client</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+        <!-- Bagian Testimonials END -->
+
+      <!-- Bagian Contact Start -->
+    <section id="contact" class="py-24 bg-white relative overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-20" data-aos="fade-up">
+            <span class="text-teal-600 font-bold tracking-widest text-xs uppercase">Mari Terhubung</span>
+            <h2 class="text-4xl font-bold text-slate-900 mt-4">Hubungi <span class="text-teal-500">Saya</span></h2>
+            <p class="text-slate-600 mt-5 text-lg">Siap untuk berkolaborasi atau memiliki pertanyaan seputar pengembangan web dan desain? Jangan ragu untuk mengirimkan pesan.</p>
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-16 items-start">
+            <div class="w-full lg:w-1/3 space-y-8" data-aos="fade-right">
+                <div class="flex items-start gap-6 group">
+                <div class="w-14 h-14 bg-teal-50 rounded-2xl flex items-center justify-center text-teal-500 group-hover:bg-teal-500 group-hover:text-white transition-all duration-300 shadow-sm">
+                    <i class="fas fa-envelope text-xl"></i>
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-900">Email</h4>
+                    <p class="text-slate-500 mt-1">suksesprasetya1@gmail.com</p>
+                </div>
+                </div>
+
+                <div class="flex items-start gap-6 group">
+                <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-all duration-300 shadow-sm">
+                    <i class="fas fa-map-marker-alt text-xl"></i>
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-900">Lokasi</h4>
+                    <p class="text-slate-500 mt-1">Dumai, Riau, Indonesia</p>
+                </div>
+                </div>
+
+                <div class="flex items-start gap-6 group">
+                <div class="w-14 h-14 bg-green-50 rounded-2xl flex items-center justify-center text-green-500 group-hover:bg-green-500 group-hover:text-white transition-all duration-300 shadow-sm">
+                    <i class="fab fa-whatsapp text-xl"></i>
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-900">WhatsApp</h4>
+                    <p class="text-slate-500 mt-1">Hubungi via Chat</p>
+                </div>
+            </div>
+        </div>
+
+            <div class="w-full lg:w-2/3 bg-slate-50 p-8 md:p-12 rounded-3xl border border-slate-100 shadow-2xl shadow-slate-200/50" data-aos="fade-left">
+                <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                    <input type="hidden" name="access_key" value="0c466f70-8f89-4571-b6a6-810e3be3a698">
+                    
+                    <input type="hidden" name="from_name" value="SuksesPrasetia Official">
+                    <input type="hidden" name="subject" value="📩 Kontak Baru: Seseorang menghubungimu!">
+                    <input type="hidden" name="replyto" value="email"> <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label class="text-sm font-semibold text-slate-700 ml-1">Nama Lengkap</label>
+                            <input type="text" name="name" required class="w-full px-5 py-4 rounded-xl border border-slate-200 focus:border-teal-500 focus:ring-4 focus:ring-teal-500/10 transition-all outline-none" placeholder="Masukkan nama Anda...">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-sm font-semibold text-slate-700 ml-1">Alamat Email</label>
+                            <input type="email" name="email" required class="w-full px-5 py-4 rounded-xl border border-slate-200 focus:border-teal-500 focus:ring-4 focus:ring-teal-500/10 transition-all outline-none" placeholder="name@email.com">
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="text-sm font-semibold text-slate-700 ml-1">Pesan</label>
+                        <textarea name="message" rows="5" required class="w-full px-5 py-4 rounded-xl border border-slate-200 focus:border-teal-500 focus:ring-4 focus:ring-teal-500/10 transition-all outline-none" placeholder="Tuliskan pesan Anda di sini..."></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-4 bg-teal-500 text-white font-bold rounded-xl shadow-lg shadow-teal-500/30 hover:bg-teal-600 transform hover:-translate-y-1 duration-300">
+                        Kirim Pesan Sekarang <i class="fas fa-paper-plane ml-2"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mt-20 ml-20 mr-20 rounded-3xl overflow-hidden shadow-2xl border border-slate-100" data-aos="zoom-in">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.134707624641!2d101.44747517403332!3d1.6644265604106527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d3a953930b9123%3A0xc3f3458066f2a281!2sJl.%20Merdeka%20Baru%2C%20Tlk.%20Binjai%2C%20Kec.%20Dumai%20Tim.%2C%20Kota%20Dumai%2C%20Riau%2028826!5e0!3m2!1sid!2sid!4v1714234567890!5m2!1sid!2sid" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </div>
+
+        
+    </section>
+      <!-- Bagian Contact END -->
+
+      <!-- Bagian Footer -->c
+       <footer class="bg-slate-900 pt-20 pb-10 relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-80 h-80 bg-teal-500/10 rounded-full blur-3xl"></div>
+    
+    <div class="container mx-auto px-6 relative z-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+            
+            <div class="space-y-6">
+                <div class="flex items-center gap-3">
+                    <img src="/suksesprasetia/assets/logo-DKrcCrm8.png" alt="Logo" class="h-10 w-auto">
+                    <span class="text-white font-bold text-xl tracking-tight">SUKSES<span class="text-teal-400">PRASETIA</span></span>
+                </div>
+                <p class="text-slate-400 leading-relaxed">
+                    Membangun solusi digital yang inovatif dengan fokus pada pengalaman pengguna dan efisiensi kode. Berbasis di Dumai, Riau.
+                </p>
+                <div class="flex gap-4">
+                    <a href="https://www.facebook.com/prasetia.hulu.2025" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-teal-500 hover:text-white transition-all duration-300">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/sukses_prasetia02/" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-teal-500 hover:text-white transition-all duration-300">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/sukses-prasetia46" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-teal-500 hover:text-white transition-all duration-300">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@SuksesprasetiaWPS" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-teal-500 hover:text-white transition-all duration-300">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold mb-6">Tautan Langsung</h4>
+                <ul class="space-y-4">
+                    <li><a href="#home" class="text-slate-400 hover:text-teal-400 transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-[10px]"></i> Beranda</a></li>
+                    <li><a href="#about" class="text-slate-400 hover:text-teal-400 transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-[10px]"></i> Tentang</a></li>
+                    <li><a href="#portfolio" class="text-slate-400 hover:text-teal-400 transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-[10px]"></i> Portfolio</a></li>
+                    <li><a href="#partners" class="text-slate-400 hover:text-teal-400 transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-[10px]"></i> Partner</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold mb-6">Layanan Utama</h4>
+                <ul class="space-y-4">
+                    <li class="text-slate-400 flex items-center gap-2"><i class="fas fa-check-circle text-teal-500"></i> Web Development</li>
+                    <li class="text-slate-400 flex items-center gap-2"><i class="fas fa-check-circle text-teal-500"></i> UI/UX Design</li>
+                    <li class="text-slate-400 flex items-center gap-2"><i class="fas fa-check-circle text-teal-500"></i> IT Education</li>
+                    <li class="text-slate-400 flex items-center gap-2"><i class="fas fa-check-circle text-teal-500"></i> Branding & Logo</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold mb-6">Mulai Proyek</h4>
+                <p class="text-slate-400 mb-6 text-sm">Punya ide luar biasa? Mari kita wujudkan bersama.</p>
+                <a href="#contact" class="inline-block w-full py-3 bg-teal-500 hover:bg-teal-600 text-white text-center font-bold rounded-xl transition-all shadow-lg shadow-teal-500/20">
+                    Diskusi Sekarang
+                </a>
+            </div>
+        </div>
+
+        <div class="pt-10 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-slate-500 text-sm">
+                © 2026 <span class="text-slate-300 font-semibold">Sukses Prasetia, S.Kom.</span> All rights reserved.
+            </p>
+            <div class="flex gap-8">
+                <a href="#" class="text-slate-500 text-xs hover:text-white transition-colors">Privacy Policy</a>
+                <a href="#" class="text-slate-500 text-xs hover:text-white transition-colors">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+        </footer>
+       <!-- Bagian Footer End -->
+
+    <!-- script Start-->
+     <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const links = document.querySelectorAll('.mobile-link');
+
+        // Toggle menu saat tombol hamburger diklik
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            // Animasi ganti icon bars ke xmark (opsional)
+            const icon = menuBtn.querySelector('i');
+            icon.classList.toggle('fa-bars-staggered');
+            icon.classList.toggle('fa-xmark');
+        });
+
+        // Tutup menu saat salah satu link diklik
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            const icon = menuBtn.querySelector('i');
+            icon.classList.add('fa-bars-staggered');
+            icon.classList.remove('fa-xmark');
+            });
+        });
+    </script>
+     <!-- script End-->
+  </body>
+</html>
