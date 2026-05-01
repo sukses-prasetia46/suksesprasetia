@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    
     <!-- link End -->
 
     <link rel="stylesheet" crossorigin href="/suksesprasetia/assets/style-C_20xrY3.css">
@@ -986,6 +987,40 @@
             });
         });
     </script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+    // Inisialisasi AOS (Animasi saat scroll)
+    AOS.init({
+        duration: 1000, // Durasi animasi
+        once: true,     // Animasi hanya muncul sekali saat pertama kali discroll
+        offset: 100     // Jarak picu animasi
+    });
+
+    // Smooth Scroll untuk navigasi (Tambahan agar lebih halus)
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+        });
+    });
+    </script>
+
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script> 
+        <script>
+        const lenis = new Lenis()
+
+        function raf(time) {
+            lenis.raf(time)
+            requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf)
+        </script>
      <!-- script End-->
   </body>
 </html>
